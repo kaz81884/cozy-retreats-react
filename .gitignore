@@ -2,3 +2,4 @@
 *.map
 *.env
 node_modules/.cache
+.env
