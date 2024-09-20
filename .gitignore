@@ -1,2 +1,4 @@
 *.json
 *.map
+*.env
+node_modules/.cache

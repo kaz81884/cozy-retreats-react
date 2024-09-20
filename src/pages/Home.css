@@ -1,0 +1,23 @@
+.cabin-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cabin-card {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.cabin-image-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.cabin-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

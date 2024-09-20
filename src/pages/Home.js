@@ -12,21 +12,27 @@ function Home() {
         <div className="cabin-card">
           <Link to="/cabin1">
             <h2>Cabin 1</h2>
-            <img src="https://live.staticflickr.com/65535/53927476008_c0fb7af88d.jpg" alt="Cabin 1 Exterior" width="381" height="500" />
+            <div className="cabin-image-container">
+              <img src="https://live.staticflickr.com/65535/53927476008_c0fb7af88d.jpg" alt="Cabin 1 Exterior" />
+            </div>
             <p>Experience the charm of our first cabin.</p>
           </Link>
         </div>
         <div className="cabin-card">
           <Link to="/cabin2">
             <h2>Cabin 2</h2>
-            <img src="https://live.staticflickr.com/65535/53927204271_2a6953e5c8.jpg" alt="Cabin 2 Exterior" width="500" height="411" />
+            <div className="cabin-image-container">
+              <img src="https://live.staticflickr.com/65535/53927204271_2a6953e5c8.jpg" alt="Cabin 2 Exterior" />
+            </div>
             <p>Discover the beauty of Cabin 2.</p>
           </Link>
         </div>
         <div className="cabin-card">
           <Link to="/cabin3">
             <h2>Cabin 3</h2>
-            <img src="https://live.staticflickr.com/65535/53927682845_b566f7a1e5.jpg" alt="Coming soon" width="500" height="493" />
+            <div className="cabin-image-container">
+              <img src="https://live.staticflickr.com/65535/53927682845_b566f7a1e5.jpg" alt="Coming soon" />
+            </div>
             <p>Explore the wonders of Cabin 3.</p>
           </Link>
         </div>
