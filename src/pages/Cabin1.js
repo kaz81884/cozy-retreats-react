@@ -1,6 +1,7 @@
 // src/pages/Cabin1.js
 import React from 'react';
 import Slideshow from '../components/Slideshow';
+import PopupBubble from '../components/PopupBubble';
 
 function Cabin1() {
   const images = [
@@ -34,6 +35,7 @@ function Cabin1() {
         {/* Add more content here */}
       </section>
       <a href="https://www.airbnb.com/rooms/1211886773850653292?source_impression_id=p3_1723730895_P3zC6-EoVnz5qOYj" className="book-btn" target="_blank" rel="noopener noreferrer">Book on Airbnb</a>
+    <PopupBubble />
     </main>
   );
 }

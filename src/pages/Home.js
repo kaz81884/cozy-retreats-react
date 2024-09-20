@@ -2,6 +2,7 @@
 import React from 'react';
 import './Home.css';  // Add this line
 import { Link } from 'react-router-dom';
+import PopupBubble from '../components/PopupBubble'; 
 
 function Home() {
   return (
@@ -53,6 +54,7 @@ function Home() {
 	<p>Book your stay today and discover why our cabins are the perfect blend of homey comfort and outdoor adventure. We can’t wait to welcome you to your cozy retreat!</p>
 
       </section>
+      <PopupBubble /> 
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Cabin3.css'; 
+import PopupBubble from '../components/PopupBubble'; 
 
 function Cabin3() {
   return (
@@ -36,6 +37,7 @@ function Cabin3() {
       </div>
 
       <Link to="/" className="back-link">Back to all cabins</Link>
+    <PopupBubble />
     </main>
   );
 }

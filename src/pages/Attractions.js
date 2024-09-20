@@ -1,5 +1,6 @@
 import React from 'react';
 import './Attractions.css';  // Add this line
+import PopupBubble from '../components/PopupBubble';
 
 const attractions = [
   {
@@ -114,6 +115,7 @@ function Attractions() {
         <p>For more information about local businesses, events, and attractions, visit the Nebraska City Chamber of Commerce:</p>
         <a href="https://nebraskacity.com/" target="_blank" rel="noopener noreferrer">Nebraska City Chamber of Commerce</a>
       </section>
+     <PopupBubble />
     </main>
   );
 }
